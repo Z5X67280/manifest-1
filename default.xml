@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
+  <remote name="aosp"
+          fetch="https://aosp.tuna.tsinghua.edu.cn/"
+          review="https://android-review.googlesource.com/" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -734,5 +734,8 @@
   <!-- Custom repos -->
   <include name="snippets/remove.xml" />
   <include name="snippets/aex.xml" />
+
+  <!-- Add Device Stuff -->
+  <include name="snippets/device.xml" />
 
 </manifest>
